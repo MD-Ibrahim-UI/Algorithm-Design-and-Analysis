@@ -42,11 +42,11 @@ int main()
     }
 
     if (index == -1)
-    { // If the value of flag is true, the output will be Yes
+    { // If the value index is -1, x doesn't exists in this array
         cout << "Element isn't found\n";
     }
     else
-    { // If the value of flag is false, the output will be No
+    { // If the value of index is anything other than -1, x exists in this array
         cout << "The leftmost index of " << x << " is " << index;
     }
 
